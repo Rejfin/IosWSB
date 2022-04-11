@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AutoLayoutController" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1381"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OwQ-J0-A9h">
+                                <rect key="frame" x="0.0" y="44" width="414" height="300"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="rap-h6-mzb">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dodaj do ulubionych" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5xF-1M-wiq">
+                                        <rect key="frame" x="15" y="264.5" width="186.5" height="25.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="N6a-LU-rac"/>
+                                    <constraint firstAttribute="bottom" secondItem="5xF-1M-wiq" secondAttribute="bottom" constant="10" id="OMq-IP-j0g"/>
+                                    <constraint firstAttribute="bottom" secondItem="rap-h6-mzb" secondAttribute="bottom" id="Rfm-sd-bLh"/>
+                                    <constraint firstItem="rap-h6-mzb" firstAttribute="top" secondItem="OwQ-J0-A9h" secondAttribute="top" id="Xe0-r9-5uV"/>
+                                    <constraint firstItem="rap-h6-mzb" firstAttribute="leading" secondItem="OwQ-J0-A9h" secondAttribute="leading" id="jRw-8W-UjK"/>
+                                    <constraint firstAttribute="trailing" secondItem="rap-h6-mzb" secondAttribute="trailing" id="l9z-bb-INJ"/>
+                                    <constraint firstItem="5xF-1M-wiq" firstAttribute="leading" secondItem="OwQ-J0-A9h" secondAttribute="leading" constant="15" id="opX-1Z-KjR"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SIW-oD-LKs">
+                                <rect key="frame" x="0.0" y="344" width="414" height="1003"/>
+                                <subviews>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UfL-Nt-3za">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1003"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="el8-0K-LUN">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="850"/>
+                                                <subviews>
+                                                    <textView clipsSubviews="YES" contentMode="scaleToFill" scrollEnabled="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UAJ-3M-zxU">
+                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="760"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="760" id="JvT-D7-gSA"/>
+                                                        </constraints>
+                                                        <mutableString key="text">
+iPhone’y 13 i 13 mini nadal mają dwa obiektywy w głównym aparacie, teraz jednak podobnie jak w serii Pro dodano zaawansowaną optyczną stabilizację obrazu. Matryca jest tu zawieszona na elektromagnesach, dzięki czemu drgania są lepiej niwelowane. Pojawiły się też Style fotograficzne, czyli możliwość nakładania filtrów na zdjęcia, które mają wyglądać naturalnie. Można dopasować ustawienia samemu lub wybrać jeden ze zdefiniowanych stylów: żywy, bardzo kontrastowy, ciepły lub chłodny.iPhone 13 to najnowsza propozycja od Apple. Amerykański gigant ponownie przesunął granice możliwości telefonu, oferując jeszcze szybszy, bardziej zaawansowany i wytrzymalszy smartfon. Przekonaj się co potrafi iPhone 13 i wybierz jeden z sześciu dostępnych kolorów, w tym także w nowym zielonym kolorze.Z obiektywem ultraszerokokątnym zobaczysz wszystko. Teraz w najciemniejszych fragmentach zdjęć odsłania jeszcze więcej detali. Przepuszcza o 47% więcej światła i pozwala cieszyć się jeszcze lepszą fotografią. Tryb filmowy zrobi z Ciebie profesjonalistę. Utrzymuje ostrość na głównym obiekcie, tworząc wokół niego przepiękny efekt głębi. Przewiduje również pojawienie się nowego obiektu w kadrze, aby automatycznie go wyostrzyć.Apple iPhone 13 128 GB zapewni Ci kinowe wrażenia na ekranie smartfona. Wyświetlacz Super Retina XDR z jasnością 800 nitów gwarantuje Ci, że nawet w pełnym słońcu zobaczysz wiadomość od znajomego lub obejrzysz ulubiony serial. Szeroka gama kolorów zgodna ze standardem kinowym pozwoli Ci zobaczyć barwy tak, jak chciał tego twórca treści.A15 Bionic to procesor, który zadba, aby wykonywanie zadań na smartfonie było szybkie, bez zacięć i bez opóźnień. Czip ten napędza style fotograficzne, jak i tryb filmowy. Dba również o błyskawiczną pracę innych funkcji, które ułatwiają tworzenie treści. iPhone 13 ma teraz baterię, która nabrała energii. To aż do 2,5 godziny więcej korzystania ze smartfona bez konieczności uzupełniania energii.W przypadku iPhone’a 13 Pro i Pro Max, zgodnie z oczekiwaniami, zastosowano ekran o częstotliwości odświeżania 120 Hz, co oznacza płynniejszy obraz. Ważną nowością jest też Tryb filmowy, który pozwala w łatwy sposób zmieniać ostrość między obiektami w kadrze. Cennym dodatkiem dla osób profesjonalnie zajmujących się wideo jest możliwość nagrywania w formacie ProRes (w Pro i Pro Max o pamięci wewnętrznej od 256 GB). Najwyższa dostępna teraz pamięć wewnętrzna to aż 1TB w modelach Pro.</mutableString>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fA5-0P-gNE">
+                                                        <rect key="frame" x="30" y="780" width="354" height="50"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="adP-zb-xNU"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="SPRAWDZ DOSTEPNOSC"/>
+                                                        <connections>
+                                                            <action selector="ClickCheckButton:" destination="BYZ-38-t0r" eventType="touchDown" id="lLu-xM-gTZ"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.066666666669999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="fA5-0P-gNE" secondAttribute="trailing" constant="30" id="5od-JK-eOI"/>
+                                                    <constraint firstItem="UAJ-3M-zxU" firstAttribute="leading" secondItem="el8-0K-LUN" secondAttribute="leading" id="6gs-Tj-YMi"/>
+                                                    <constraint firstAttribute="trailing" secondItem="UAJ-3M-zxU" secondAttribute="trailing" id="GXo-NU-dpy"/>
+                                                    <constraint firstItem="UAJ-3M-zxU" firstAttribute="top" secondItem="el8-0K-LUN" secondAttribute="top" id="Vd8-Nd-HPi"/>
+                                                    <constraint firstItem="fA5-0P-gNE" firstAttribute="leading" secondItem="el8-0K-LUN" secondAttribute="leading" constant="30" id="WPa-ey-4vQ"/>
+                                                    <constraint firstItem="fA5-0P-gNE" firstAttribute="top" secondItem="UAJ-3M-zxU" secondAttribute="bottom" constant="20" id="dNb-ZL-lhm"/>
+                                                    <constraint firstAttribute="height" constant="850" id="yg5-LO-AaM"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="el8-0K-LUN" secondAttribute="bottom" id="6Kn-BR-ewY"/>
+                                            <constraint firstItem="el8-0K-LUN" firstAttribute="top" secondItem="UfL-Nt-3za" secondAttribute="top" id="Mlv-MC-XCv"/>
+                                            <constraint firstItem="el8-0K-LUN" firstAttribute="leading" secondItem="UfL-Nt-3za" secondAttribute="leading" id="Qv3-Jn-OWf"/>
+                                            <constraint firstAttribute="trailing" secondItem="el8-0K-LUN" secondAttribute="trailing" id="qKn-iU-X53"/>
+                                        </constraints>
+                                    </scrollView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="58k-Vj-f92">
+                                        <rect key="frame" x="339" y="-30" width="60" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="50d-Kv-aRB"/>
+                                            <constraint firstAttribute="width" constant="60" id="uSM-Kz-1J5"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="❤️">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="35"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.066666666669999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="58k-Vj-f92" firstAttribute="top" secondItem="SIW-oD-LKs" secondAttribute="top" constant="-30" id="1Aq-mQ-Oh1"/>
+                                    <constraint firstItem="UfL-Nt-3za" firstAttribute="top" secondItem="SIW-oD-LKs" secondAttribute="top" id="7fR-qY-dXI"/>
+                                    <constraint firstAttribute="trailing" secondItem="58k-Vj-f92" secondAttribute="trailing" constant="15" id="EDF-pq-rwk"/>
+                                    <constraint firstItem="UfL-Nt-3za" firstAttribute="leading" secondItem="SIW-oD-LKs" secondAttribute="leading" id="Hat-49-Fya"/>
+                                    <constraint firstAttribute="bottom" secondItem="UfL-Nt-3za" secondAttribute="bottom" id="RCW-Qf-fo9"/>
+                                    <constraint firstAttribute="trailing" secondItem="UfL-Nt-3za" secondAttribute="trailing" id="d3e-DP-6SH"/>
+                                    <constraint firstItem="el8-0K-LUN" firstAttribute="width" secondItem="SIW-oD-LKs" secondAttribute="width" id="zEa-tu-qH7"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SIW-oD-LKs" secondAttribute="trailing" id="2lu-Z2-jpt"/>
+                            <constraint firstItem="SIW-oD-LKs" firstAttribute="top" secondItem="OwQ-J0-A9h" secondAttribute="bottom" id="C8Y-UB-3Gi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="SIW-oD-LKs" secondAttribute="bottom" id="Idg-54-b82"/>
+                            <constraint firstItem="OwQ-J0-A9h" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="QTd-Cx-T2Z"/>
+                            <constraint firstItem="OwQ-J0-A9h" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="YKp-gh-lR7"/>
+                            <constraint firstItem="SIW-oD-LKs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="edR-4o-Ncw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OwQ-J0-A9h" secondAttribute="trailing" id="pf3-a8-RFQ"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="414" height="1381"/>
+                    <connections>
+                        <outlet property="checkButton" destination="fA5-0P-gNE" id="Zub-IR-ae2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="158.37053571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Image" width="190" height="190"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

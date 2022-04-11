@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PDFKitView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D8b-4f-Sq6">
+                                <rect key="frame" x="0.0" y="138" width="414" height="724"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Vc-C0-ggs">
+                                <rect key="frame" x="0.0" y="94" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="PDF Viewer" id="goY-AD-eGe"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="0Vc-C0-ggs" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="57O-g8-8kM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="D8b-4f-Sq6" secondAttribute="trailing" id="KGZ-xi-Jhi"/>
+                            <constraint firstItem="D8b-4f-Sq6" firstAttribute="top" secondItem="0Vc-C0-ggs" secondAttribute="bottom" id="RBF-yY-s5r"/>
+                            <constraint firstItem="0Vc-C0-ggs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ezG-Ve-8ES"/>
+                            <constraint firstItem="D8b-4f-Sq6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fDe-UG-2NB"/>
+                            <constraint firstItem="0Vc-C0-ggs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="h7S-GX-WtR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="D8b-4f-Sq6" secondAttribute="bottom" id="oyB-BH-BqW"/>
+                            <constraint firstItem="0Vc-C0-ggs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="wBY-Dc-KBf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="navBar" destination="D8b-4f-Sq6" id="uZd-fD-pvc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20" y="98"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
