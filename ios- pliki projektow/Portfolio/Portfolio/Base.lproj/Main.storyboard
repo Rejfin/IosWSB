@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6Ca-cM-Zk9">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Menu View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MenuViewController" customModule="Portfolio" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="center" axis="vertical" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="vWS-rW-ofF">
+                                <rect key="frame" x="117" y="393" width="180" height="110"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OND-TS-ruj">
+                                        <rect key="frame" x="0.0" y="0.0" width="180" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="180" id="1Uy-fJ-kB1"/>
+                                            <constraint firstAttribute="height" constant="50" id="eG1-wn-1bN"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="O mnie"/>
+                                        <connections>
+                                            <segue destination="vID-U0-ikl" kind="show" id="FfW-Nd-T6O"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UK7-Hv-McE">
+                                        <rect key="frame" x="0.0" y="60" width="180" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="180" id="MlA-pD-4xA"/>
+                                            <constraint firstAttribute="height" constant="50" id="TUu-YN-O8M"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="CV"/>
+                                        <connections>
+                                            <segue destination="vzS-2S-7CE" kind="show" id="a6a-Uo-1Cz"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PORTFOLIO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hws-lE-fYF">
+                                <rect key="frame" x="72" y="219" width="270" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="51"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vWS-rW-ofF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="MHG-2u-ajc"/>
+                            <constraint firstItem="vWS-rW-ofF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ovy-KZ-2l2"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="C41-Je-C2j"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928.98550724637687" y="83.705357142857139"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ijC-BI-1OE">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6Ca-cM-Zk9" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zj0-jn-4SH">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="EPx-rS-8yL"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xYC-8G-HAn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="83.705357142857139"/>
+        </scene>
+        <!--O mnie-->
+        <scene sceneID="duR-et-GWf">
+            <objects>
+                <viewController id="vID-U0-ikl" customClass="AboutMeViewController" customModule="Portfolio" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hac-pZ-NfA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="eAy-5k-8ty">
+                                <rect key="frame" x="20" y="378.5" width="374" height="139"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Jan Kowalski" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="E0D-E0-ndS">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="50"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="6rB-Pz-YMf"/>
+                                        </constraints>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="jan.kowalski@gmail.com" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Q7Q-xo-sSN">
+                                        <rect key="frame" x="0.0" y="51" width="374" height="35"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="374" id="2aQ-LM-dtk"/>
+                                            <constraint firstAttribute="height" constant="35" id="Jh2-mx-lVm"/>
+                                        </constraints>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="ul. Krucza 51" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Ejk-KN-cbs">
+                                        <rect key="frame" x="0.0" y="87" width="374" height="35"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="J2J-wu-z8u"/>
+                                        </constraints>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mgg-jR-4hJ">
+                                        <rect key="frame" x="0.0" y="123" width="374" height="16"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="16" id="MXM-hX-1O3"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="www.jankowalski.pl">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="lIW-Hy-5jT" kind="show" id="VTv-xW-JVd"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Q7Q-xo-sSN" firstAttribute="centerX" secondItem="eAy-5k-8ty" secondAttribute="centerX" id="GfC-SC-MiO"/>
+                                    <constraint firstItem="mgg-jR-4hJ" firstAttribute="top" secondItem="Ejk-KN-cbs" secondAttribute="bottom" constant="8" id="aco-0j-4Rt"/>
+                                    <constraint firstAttribute="trailing" secondItem="Q7Q-xo-sSN" secondAttribute="trailing" id="hNW-fP-oKf"/>
+                                    <constraint firstItem="Q7Q-xo-sSN" firstAttribute="centerY" secondItem="eAy-5k-8ty" secondAttribute="centerY" id="puH-rj-j7U"/>
+                                    <constraint firstItem="Q7Q-xo-sSN" firstAttribute="leading" secondItem="eAy-5k-8ty" secondAttribute="leading" id="z7U-qq-wvM"/>
+                                </constraints>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ProfileImage" translatesAutoresizingMaskIntoConstraints="NO" id="2Vl-aY-ZGq">
+                                <rect key="frame" x="147" y="135" width="120" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="z1f-FO-tCR"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="eAy-5k-8ty" firstAttribute="centerY" secondItem="hac-pZ-NfA" secondAttribute="centerY" id="dcC-dD-GXf"/>
+                            <constraint firstItem="eAy-5k-8ty" firstAttribute="centerX" secondItem="hac-pZ-NfA" secondAttribute="centerX" id="pLb-Qd-P7g"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="O mnie" id="Mon-Fl-tuY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cq6-Ki-j9g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1866.6666666666667" y="83.705357142857139"/>
+        </scene>
+        <!--CV-->
+        <scene sceneID="tkX-9d-XJb">
+            <objects>
+                <viewController id="vzS-2S-7CE" customClass="CvViewController" customModule="Portfolio" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jCc-3C-Jo5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0C9-yn-VQa">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="k5D-7U-xeW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="0C9-yn-VQa" firstAttribute="top" secondItem="k5D-7U-xeW" secondAttribute="top" id="d3s-UD-bpN"/>
+                            <constraint firstItem="k5D-7U-xeW" firstAttribute="bottom" secondItem="0C9-yn-VQa" secondAttribute="bottom" id="r6Y-Py-Y8T"/>
+                            <constraint firstItem="0C9-yn-VQa" firstAttribute="leading" secondItem="k5D-7U-xeW" secondAttribute="leading" id="uaQ-C5-7uE"/>
+                            <constraint firstItem="k5D-7U-xeW" firstAttribute="trailing" secondItem="0C9-yn-VQa" secondAttribute="trailing" id="wII-29-iUF"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="CV" id="PKt-sI-AVE"/>
+                    <connections>
+                        <outlet property="pdfContainer" destination="0C9-yn-VQa" id="LLY-Xp-vC7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FH9-DN-Xel" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1867" y="806"/>
+        </scene>
+        <!--Web View View Controller-->
+        <scene sceneID="1ZO-49-UdA">
+            <objects>
+                <viewController id="lIW-Hy-5jT" customClass="WebViewViewController" customModule="Portfolio" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="J4w-3S-Ar7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="7uh-l2-EId"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="lsE-GQ-mEu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BeN-MP-dKu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2739" y="84"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ProfileImage" width="180" height="180"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

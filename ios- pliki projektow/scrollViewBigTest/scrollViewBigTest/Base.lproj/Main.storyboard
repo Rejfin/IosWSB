@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="scrollViewBigTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PKf-tF-P0M">
+                                <rect key="frame" x="0.0" y="44" width="414" height="1156"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BKw-34-QZH">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
+                                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1200" id="ktX-Jm-eQB"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1200" id="pTF-YN-fKG"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="BKw-34-QZH" secondAttribute="trailing" id="Abe-jF-cGo"/>
+                                    <constraint firstAttribute="bottom" secondItem="BKw-34-QZH" secondAttribute="bottom" constant="-348" id="PyE-KH-l7o"/>
+                                    <constraint firstItem="BKw-34-QZH" firstAttribute="centerX" secondItem="PKf-tF-P0M" secondAttribute="centerX" id="Wzy-GN-JO1"/>
+                                    <constraint firstItem="BKw-34-QZH" firstAttribute="top" secondItem="PKf-tF-P0M" secondAttribute="top" id="lQa-6b-mEy"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="PKf-tF-P0M" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="AXg-iq-phx"/>
+                            <constraint firstItem="PKf-tF-P0M" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dVg-ab-vlZ"/>
+                            <constraint firstItem="PKf-tF-P0M" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="g9Y-Zh-a8L"/>
+                            <constraint firstItem="BKw-34-QZH" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="nG5-zz-m9M"/>
+                            <constraint firstAttribute="bottom" secondItem="PKf-tF-P0M" secondAttribute="bottom" id="vMV-2c-XeX"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="414" height="1200"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="83.705357142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
